@@ -5,6 +5,33 @@ public class Homework {
         task1();
         task2();
         task3();
+        task4();
+
+    }
+
+    private static void task4() {
+
+        System.out.println("Задача 4");
+
+        int[] array1 = new int[]{1, 2, 3};
+
+        for (int i = 0; i < array1.length; i++) {
+
+            if (array1[i] % 2 != 0) {
+
+                array1[i]++;
+
+            }
+
+        }
+
+        for (int i = 0; i < array1.length - 1; i++) {
+
+            System.out.print(array1[i] + ", ");
+
+        }
+
+        System.out.println(array1[array1.length - 1]);
 
     }
 
